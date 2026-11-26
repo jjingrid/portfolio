@@ -1,9 +1,5 @@
 import * as React from "react"
 
-/**
- * Laptop showing a long page screenshot. The lid opens as it scrolls into view; visitors scroll
- * inside the screen and handwritten design notes appear beside it, pointing at what they explain.
- */
 const HAND = "'Caveat', 'Bradley Hand', cursive"
 const NOTE_INK = "#2f4c9a"
 
