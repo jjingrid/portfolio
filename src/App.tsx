@@ -9,12 +9,12 @@ import BookingMe from "./pages/BookingMe"
 
 const NAME = "Yuezhou Ingrid Jiang"
 const ROUTES: Record<string, { page: () => React.ReactElement; title: string }> = {
-    "/": { page: Home, title: NAME + " · UX Design & Research" },
-    "/work": { page: Work, title: "Work · " + NAME },
-    "/about": { page: About, title: "About · " + NAME },
-    "/work/common-ground": { page: CommonGround, title: "Common Ground · " + NAME },
-    "/work/twin-paths-of-fate": { page: TwinPaths, title: "Twin Paths of Fate · " + NAME },
-    "/work/booking-me": { page: BookingMe, title: "Booking Me · " + NAME },
+    "/": { page: Home, title: NAME },
+    "/work": { page: Work, title: "Work" },
+    "/about": { page: About, title: "About" },
+    "/work/common-ground": { page: CommonGround, title: "Common Ground" },
+    "/work/twin-paths-of-fate": { page: TwinPaths, title: "Twin Paths of Fate" },
+    "/work/booking-me": { page: BookingMe, title: "Booking Me" },
 }
 
 function NotFound() {
@@ -32,7 +32,7 @@ function NotFound() {
 export default function App() {
     const path = usePath()
     const route = ROUTES[path]
-    React.useEffect(() => { document.title = route ? route.title : "Not found · " + NAME }, [route])
+    React.useEffect(() => { document.title = route ? route.title : "Not found" }, [route])
     const Page = route ? route.page : NotFound
     // key: every page starts fresh (state, animations) like a real page load
     return <Page key={path} />
