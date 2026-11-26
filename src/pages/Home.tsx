@@ -63,15 +63,24 @@ export default function Home() {
                         </article>
                         <article className="work-row">
                             <div className="work-row__body">
-                                <h3 className="work-row__title">Booking Me</h3>
-                                <p className="work-row__desc">An all-in-one booking app. In progress.</p>
-                                <div className="tags"><span className="tag">UX research</span><span className="tag">UX design</span><span className="tag">Interviews</span><span className="tag">Prototype</span></div>
-                                <p className="work-row__more"><span>Coming soon</span></p>
+                                <h3 className="work-row__title">Twin Paths of Fate</h3>
+                                <p className="work-row__desc">A strategy board game based on Shan Hai Jing. I designed every card, the rulebook and all the visuals, and ran the playtest survey.</p>
+                                <div className="tags"><span className="tag">Visual design</span><span className="tag">Game design</span><span className="tag">Playtesting</span></div>
+                                <a className="work-row__more" href="/work/twin-paths-of-fate"><span>More details</span></a>
                             </div>
+                            <div className="work-row__cover" role="img" aria-label="Twin Paths of Fate box and game board" style={{ backgroundImage: "url(" + img("8mGLnw5ciliqR5nMeeomAsdY8jM.png") + ")" }} />
+                        </article>
+                        <article className="work-row">
                             <div className="work-row__cover work-row__cover--preview">
                                 <div style={{ position: "absolute", inset: 0 }}>
                                     <BookingPreview speed={0.75} accent="#C2456E" label="Early prototype · New version in progress" />
                                 </div>
+                            </div>
+                            <div className="work-row__body">
+                                <h3 className="work-row__title">Booking Me</h3>
+                                <p className="work-row__desc">An all-in-one booking app. In progress.</p>
+                                <div className="tags"><span className="tag">UX research</span><span className="tag">UX design</span><span className="tag">Interviews</span><span className="tag">Prototype</span></div>
+                                <p className="work-row__more"><span>Coming soon</span></p>
                             </div>
                         </article>
                     </div>
