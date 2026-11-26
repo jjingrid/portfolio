@@ -1,9 +1,5 @@
 import * as React from "react"
 
-/**
- * A dashed route that draws itself as you scroll, from the top of the page down to the last
- * letter of a heading (by default "Selected work"), where its dot turns pink.
- */
 export default function ScrollRoute(rawProps) {
     const { color, endInset, startX, target, accent, fromTop, fromEdge } = { ...ScrollRoute.defaultProps, ...rawProps }
     const [edgeX, setEdgeX] = React.useState(0)
