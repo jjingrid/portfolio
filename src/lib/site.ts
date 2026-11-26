@@ -3,7 +3,7 @@ export const img = (file: string) => "/assets/" + file
 
 export const LINKS = {
     email: "mailto:yzjiang03@gmail.com",
-    emailText: "yzjiang03@gmail.com",
+    emailText: "Email",
     linkedin: "https://www.linkedin.com/in/yuezhoujiang03",
     resume: "https://drive.google.com/file/d/1fiVSd7HMySA6JcnyM4fscbeNwtYBHcXc/view?usp=sharing",
 }
