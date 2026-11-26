@@ -7,7 +7,7 @@ import CommonGround from "./pages/CommonGround"
 import TwinPaths from "./pages/TwinPaths"
 import BookingMe from "./pages/BookingMe"
 
-const NAME = "Yuezhou (Ingrid) Jiang"
+const NAME = "Yuezhou Ingrid Jiang"
 const ROUTES: Record<string, { page: () => React.ReactElement; title: string }> = {
     "/": { page: Home, title: NAME + " · UX Design & Research" },
     "/work": { page: Work, title: "Work · " + NAME },
