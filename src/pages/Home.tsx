@@ -66,7 +66,7 @@ export default function Home() {
                                 <h3 className="work-row__title">Booking Me</h3>
                                 <p className="work-row__desc">An all-in-one booking app. In progress.</p>
                                 <div className="tags"><span className="tag">UX research</span><span className="tag">UX design</span><span className="tag">Interviews</span><span className="tag">Prototype</span></div>
-                                <p className="work-row__more"><span>Coming soon</span></p>
+                                <a className="work-row__more" href="/work/booking-me"><span>More details</span></a>
                             </div>
                             <div className="work-row__cover work-row__cover--preview">
                                 <div style={{ position: "absolute", inset: 0 }}>
